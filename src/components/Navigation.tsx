@@ -8,7 +8,7 @@ import type { NavLink } from '@/types';
 
 const navLinks: NavLink[] = [
   { name: '博客', path: '/blog' },
-  { name: '项目', path: '/projects' },
+  { name: '项目案例', path: '/projects' },
   { name: '友链', path: '/links' },
   { name: '关于', path: '/about' },
 ];
@@ -48,7 +48,7 @@ const Navigation: React.FC = () => {
             ))}
 
             {/* More Dropdown */}
-            <div className="relative">
+            {/* <div className="relative">
               <button
                 className="flex items-center text-gray-700 hover:text-blue-600 transition-colors font-medium"
                 onClick={() => setIsMoreOpen(!isMoreOpen)}
@@ -62,46 +62,18 @@ const Navigation: React.FC = () => {
                   <Link href="/rss" className="block px-4 py-2 text-gray-700 hover:bg-gray-50">RSS</Link>
                 </div>
               )}
-            </div>
+            </div> */}
           </div>
 
           {/* Right Side Controls */}
           <div className="flex items-center space-x-4">
-            {/* Theme Toggle */}
-            <button className="p-2 text-gray-600 hover:text-blue-600 transition-colors">
-              <FiSun size={20} />
-            </button>
-
-            {/* Search */}
-            <div className="relative">
-              <button
-                className="p-2 text-gray-600 hover:text-blue-600 transition-colors"
-                onClick={() => setIsSearchOpen(!isSearchOpen)}
-              >
-                <FiSearch size={20} />
-              </button>
-              {isSearchOpen && (
-                <div className="absolute top-full right-0 mt-2 w-80 bg-white rounded-lg shadow-lg border p-4">
-                  <div className="flex items-center space-x-2">
-                    <FiSearch className="text-gray-400" size={16} />
-                    <input
-                      type="text"
-                      placeholder="搜索"
-                      className="flex-1 outline-none text-sm"
-                    />
-                    <span className="text-xs text-gray-400 bg-gray-100 px-2 py-1 rounded">K</span>
-                  </div>
-                </div>
-              )}
-            </div>
-
             {/* Language Selector */}
-            <div className="relative">
+            {/* <div className="relative">
               <button className="flex items-center space-x-1 text-gray-600 hover:text-blue-600 transition-colors">
                 <span className="text-sm font-medium">中A</span>
                 <FiChevronDown size={14} />
               </button>
-            </div>
+            </div> */}
 
             {/* Mobile Menu Button */}
             <button
