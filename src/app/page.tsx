@@ -12,7 +12,7 @@ export default function Home() {
           <div className="space-y-8">
             <div className="space-y-6">
               <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-                你好! 我是<span className="text-blue-600">leo·anderson</span> 👋
+                你好! 我是<span className="text-blue-600">Lucas</span> 👋
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed max-w-2xl">
                 在这里我会分享各类技术栈所遇到问题与解决方案,带你了解最新的技术栈以及实际开发中如何应用,并希望我的开发经历对你有所启发。

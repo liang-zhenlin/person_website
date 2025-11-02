@@ -29,7 +29,7 @@ const Navigation: React.FC = () => {
               <span className="text-white text-sm font-bold">L</span>
             </div>
             <Link href="/" className="text-xl font-bold text-gray-800 hover:text-blue-600 transition-colors">
-              leo·anderson
+              Lucas
             </Link>
           </div>
 
